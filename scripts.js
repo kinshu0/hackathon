@@ -36,6 +36,11 @@ function initializeClock(id, endtime) {
   const timeinterval = setInterval(updateClock, 1000);
 }
 
+function showEasterEgg() {
+  const easterEgg = document.getElementById('easter-egg');
+  easterEgg.classList.toggle('hidden');
+}
+
 // Set the date and time of your hackathon
 const hackathonDate = new Date("2023-04-01T11:00:00");
 const hackathonDuration = 5 * 60 * 60 * 1000; // 5 hours

@@ -8,11 +8,19 @@
 </head>
 <body>
   <div class="container">
-    <h1>Time Themed Hackathon</h1>
-    <p>Sponsored by M&T Bank</p>
-    <div class="timer">
-      <p>Time remaining:</p>
-      <p id="countdown"></p>
+
+
+    <div class="header-container">
+        <div class="logo-container">
+          <img src="computing-club-logo.png" alt="Computing Club Logo" class="computing-club-logo">
+          <img src="sponsor-logo.png" alt="Sponsor Logo" class="sponsor-logo">
+        </div>
+        <h1>Time Themed Hackathon</h1>
+        <p>Sponsored by M&T Bank</p>
+        <div class="timer" onclick="showEasterEgg()">
+          <p>Time remaining:</p>
+          <p id="countdown"></p>
+        </div>
     </div>
     
     <section id="description">
@@ -21,7 +29,7 @@
     </section>
 
     <section id="challenges">
-      <h2>Hackathon Challenges</h2>
+      <h2>Example Products</h2>
       <ul>
         <li>Develop a time-tracking app</li>
         <li>Create an algorithm to optimize schedules</li>
@@ -64,10 +72,20 @@
     
     <section id="social-media">
       <h2>Connect with us</h2>
-      <p>Facebook: [Placeholder]</p>
-      <p>Twitter: [Placeholder]</p>
-      <p>Instagram: [Placeholder]</p>
+      <p>Twitter: <a href="https://twitter.com/ComputingQu">https://twitter.com/ComputingQu></a></p>
+      <p>Instagram: <a href="https://www.instagram.com/computingqu/">https://www.instagram.com/computingqu/</a></p>
+      <p>Discord: <a href="https://discord.gg/CSgGTDYx9z">https://discord.gg/CSgGTDYx9z</a></p>
+      <p>DoYouQU: <a href="https://qu.campuslabs.com/engage/organization/computing-club">https://qu.campuslabs.com/engage/organization/computing-club</a></p>
+      <p>Linktree: <a href="https://linktr.ee/qucomputing">https://linktr.ee/qucomputing</a></p>
     </section>
+
+    <footer>
+      <p>Have fun and remember, copying entire projects from online sources is discouraged. Be prepared for a quick 5-minute demo and presentation. Good luck!</p>
+      <p>Zoom link: [Placeholder]</p>
+    </footer>
+    <div id="easter-egg" class="hidden">
+      <p>You found an Easter egg! Good luck hacking!</p>
+    </div>
   </div>
   <script src="scripts.js"></script>
 </body>
