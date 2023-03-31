@@ -12,6 +12,11 @@ body {
   line-height: 1.6;
 }
 
+#countdown {
+  color: orange;
+  font-weight: bold;
+}
+
 .container {
   display: flex;
   flex-direction: column;
